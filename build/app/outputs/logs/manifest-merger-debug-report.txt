@@ -1,0 +1,230 @@
+-- Merging decision tree log ---
+application
+INJECTED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\main\AndroidManifest.xml:9:5-47:19
+MERGED from [:location] C:\Users\kyle.andre.cruz\Documents\FlutterWeather\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-16:19
+MERGED from [:location] C:\Users\kyle.andre.cruz\Documents\FlutterWeather\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-16:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\396704e44a9011a98f7b1d95e80e355e\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\396704e44a9011a98f7b1d95e80e355e\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\af65a2fbee8fb117336a6960f57e392b\jetified-play-services-location-16.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\af65a2fbee8fb117336a6960f57e392b\jetified-play-services-location-16.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\6a3a0d60955de2c30b51dcab3f873cac\jetified-play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\6a3a0d60955de2c30b51dcab3f873cac\jetified-play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\711b18119d8d218f5cb682588e52e636\play-services-places-placereport-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\711b18119d8d218f5cb682588e52e636\play-services-places-placereport-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\f729430148bc29691f2203a4b49df243\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\f729430148bc29691f2203a4b49df243\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\10ba39f5f6316ed6c3742e6b475e1f1a\jetified-play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\10ba39f5f6316ed6c3742e6b475e1f1a\jetified-play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.6.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\dcfb90d56760b4bedcc8558d12543dd3\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\dcfb90d56760b4bedcc8558d12543dd3\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\491237865ad9caf848c477252190d771\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\491237865ad9caf848c477252190d771\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\dcfb90d56760b4bedcc8558d12543dd3\core-1.6.0\AndroidManifest.xml:24:18-86
+	android:name
+		INJECTED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\main\AndroidManifest.xml
+manifest
+ADDED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\main\AndroidManifest.xml:1:1-49:12
+INJECTED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\main\AndroidManifest.xml:1:1-49:12
+INJECTED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\main\AndroidManifest.xml:1:1-49:12
+INJECTED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\main\AndroidManifest.xml:1:1-49:12
+MERGED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\main\AndroidManifest.xml:1:1-49:12
+MERGED from [:shared_preferences_android] C:\Users\kyle.andre.cruz\Documents\FlutterWeather\build\shared_preferences_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:location] C:\Users\kyle.andre.cruz\Documents\FlutterWeather\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-18:12
+MERGED from [:location_web] C:\Users\kyle.andre.cruz\Documents\FlutterWeather\build\location_web\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\c58c3993e3b5182329ecd130c1dd10db\window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\396704e44a9011a98f7b1d95e80e355e\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\af65a2fbee8fb117336a6960f57e392b\jetified-play-services-location-16.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\2e14243baea0a07459436d8fe1196b23\core-ktx-1.3.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\6a3a0d60955de2c30b51dcab3f873cac\jetified-play-services-base-16.0.1\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\711b18119d8d218f5cb682588e52e636\play-services-places-placereport-16.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\f729430148bc29691f2203a4b49df243\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\10ba39f5f6316ed6c3742e6b475e1f1a\jetified-play-services-basement-16.0.1\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\1f737b1368f7d2bb9c0086857629b41f\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\293b9abd2eb272e873253661c58c369c\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\baf90056ab22f753b011489a562adf8b\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\52664f4c2212366316d5d27f589c3c02\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\7bfa6bdec5885c603ac2e340f3a7ec7b\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\660ae9fa685b0dae833d8182baaa48cd\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\024538878c14b4d616afd8c132a13204\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\2003b0cf3cdd3a537abc963769e10251\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\07858528977996d7c8f653fc9c11e787\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\23cba14a0a38bfe09e1915e580fdf5cb\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\11e836cd2b15efc3fe55439d43852921\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\cfb22f23bf3a82fa743a33f859491ebe\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\91d75d962b3678d58790d6c00c3fcaa3\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\9f9df9b406b6b967f669afb9dc66fd7c\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\dcfb90d56760b4bedcc8558d12543dd3\core-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\97be06ce758a55ea72d0d7c8496a0c99\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\c9b1f6620f43493d524f9ac61798ff9c\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\da5440f1ffe2a8c2ec03402c4ad96148\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\1f903bbbe69145ba3246c19d13766e1e\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\e867eb9a0a953c1e287239f270ee7ee1\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\8ccaf7fe4ad6b000436b8155986bd04b\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\491237865ad9caf848c477252190d771\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\47b7d07dae849aeba90fa79e851f99aa\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\666ecb81366df20a6cb3335366f3a5d4\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\28ed7469d15921363c5ea9fb81308109\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\56265bf4cddb8eb011c518a8b2e5a7c7\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\1db51a8da9af4db552236733027807db\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\3da558147364936a75e72dacdeb6652a\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\e7f274f38f6e5383e0a467e2d1af3409\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\main\AndroidManifest.xml:2:5-41
+		INJECTED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\main\AndroidManifest.xml:1:1-49:12
+		INJECTED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\debug\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\main\AndroidManifest.xml:1:1-49:12
+		INJECTED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\main\AndroidManifest.xml:3:8-69
+MERGED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\main\AndroidManifest.xml:3:8-69
+MERGED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\main\AndroidManifest.xml:3:8-69
+	android:name
+		ADDED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\main\AndroidManifest.xml:3:25-67
+uses-sdk
+INJECTED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\main\AndroidManifest.xml
+MERGED from [:shared_preferences_android] C:\Users\kyle.andre.cruz\Documents\FlutterWeather\build\shared_preferences_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] C:\Users\kyle.andre.cruz\Documents\FlutterWeather\build\shared_preferences_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:location] C:\Users\kyle.andre.cruz\Documents\FlutterWeather\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:location] C:\Users\kyle.andre.cruz\Documents\FlutterWeather\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:location_web] C:\Users\kyle.andre.cruz\Documents\FlutterWeather\build\location_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:location_web] C:\Users\kyle.andre.cruz\Documents\FlutterWeather\build\location_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\c58c3993e3b5182329ecd130c1dd10db\window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\c58c3993e3b5182329ecd130c1dd10db\window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\396704e44a9011a98f7b1d95e80e355e\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\396704e44a9011a98f7b1d95e80e355e\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\af65a2fbee8fb117336a6960f57e392b\jetified-play-services-location-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\af65a2fbee8fb117336a6960f57e392b\jetified-play-services-location-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\2e14243baea0a07459436d8fe1196b23\core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\2e14243baea0a07459436d8fe1196b23\core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\6a3a0d60955de2c30b51dcab3f873cac\jetified-play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\6a3a0d60955de2c30b51dcab3f873cac\jetified-play-services-base-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\711b18119d8d218f5cb682588e52e636\play-services-places-placereport-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\711b18119d8d218f5cb682588e52e636\play-services-places-placereport-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\f729430148bc29691f2203a4b49df243\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\f729430148bc29691f2203a4b49df243\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\10ba39f5f6316ed6c3742e6b475e1f1a\jetified-play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\10ba39f5f6316ed6c3742e6b475e1f1a\jetified-play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\1f737b1368f7d2bb9c0086857629b41f\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\1f737b1368f7d2bb9c0086857629b41f\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\293b9abd2eb272e873253661c58c369c\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\293b9abd2eb272e873253661c58c369c\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\baf90056ab22f753b011489a562adf8b\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\baf90056ab22f753b011489a562adf8b\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\52664f4c2212366316d5d27f589c3c02\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\52664f4c2212366316d5d27f589c3c02\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\7bfa6bdec5885c603ac2e340f3a7ec7b\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\7bfa6bdec5885c603ac2e340f3a7ec7b\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\660ae9fa685b0dae833d8182baaa48cd\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\660ae9fa685b0dae833d8182baaa48cd\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\024538878c14b4d616afd8c132a13204\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\024538878c14b4d616afd8c132a13204\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\2003b0cf3cdd3a537abc963769e10251\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\2003b0cf3cdd3a537abc963769e10251\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\07858528977996d7c8f653fc9c11e787\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\07858528977996d7c8f653fc9c11e787\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\23cba14a0a38bfe09e1915e580fdf5cb\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\23cba14a0a38bfe09e1915e580fdf5cb\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\11e836cd2b15efc3fe55439d43852921\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\11e836cd2b15efc3fe55439d43852921\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\cfb22f23bf3a82fa743a33f859491ebe\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\cfb22f23bf3a82fa743a33f859491ebe\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\91d75d962b3678d58790d6c00c3fcaa3\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\91d75d962b3678d58790d6c00c3fcaa3\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\9f9df9b406b6b967f669afb9dc66fd7c\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\9f9df9b406b6b967f669afb9dc66fd7c\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\dcfb90d56760b4bedcc8558d12543dd3\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\dcfb90d56760b4bedcc8558d12543dd3\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\97be06ce758a55ea72d0d7c8496a0c99\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\97be06ce758a55ea72d0d7c8496a0c99\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\c9b1f6620f43493d524f9ac61798ff9c\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\c9b1f6620f43493d524f9ac61798ff9c\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\da5440f1ffe2a8c2ec03402c4ad96148\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\da5440f1ffe2a8c2ec03402c4ad96148\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\1f903bbbe69145ba3246c19d13766e1e\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\1f903bbbe69145ba3246c19d13766e1e\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\e867eb9a0a953c1e287239f270ee7ee1\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\e867eb9a0a953c1e287239f270ee7ee1\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\8ccaf7fe4ad6b000436b8155986bd04b\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\8ccaf7fe4ad6b000436b8155986bd04b\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\491237865ad9caf848c477252190d771\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\491237865ad9caf848c477252190d771\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\47b7d07dae849aeba90fa79e851f99aa\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\47b7d07dae849aeba90fa79e851f99aa\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\666ecb81366df20a6cb3335366f3a5d4\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\666ecb81366df20a6cb3335366f3a5d4\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\28ed7469d15921363c5ea9fb81308109\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\28ed7469d15921363c5ea9fb81308109\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\56265bf4cddb8eb011c518a8b2e5a7c7\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\56265bf4cddb8eb011c518a8b2e5a7c7\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\1db51a8da9af4db552236733027807db\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\1db51a8da9af4db552236733027807db\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\3da558147364936a75e72dacdeb6652a\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\3da558147364936a75e72dacdeb6652a\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\e7f274f38f6e5383e0a467e2d1af3409\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\e7f274f38f6e5383e0a467e2d1af3409\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\debug\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kyle.andre.cruz\Documents\FlutterWeather\android\app\src\debug\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:location] C:\Users\kyle.andre.cruz\Documents\FlutterWeather\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from [:location] C:\Users\kyle.andre.cruz\Documents\FlutterWeather\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [:location] C:\Users\kyle.andre.cruz\Documents\FlutterWeather\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from [:location] C:\Users\kyle.andre.cruz\Documents\FlutterWeather\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-76
+service#com.lyokone.location.FlutterLocationService
+ADDED from [:location] C:\Users\kyle.andre.cruz\Documents\FlutterWeather\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-15:56
+	android:enabled
+		ADDED from [:location] C:\Users\kyle.andre.cruz\Documents\FlutterWeather\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-35
+	android:exported
+		ADDED from [:location] C:\Users\kyle.andre.cruz\Documents\FlutterWeather\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+	android:foregroundServiceType
+		ADDED from [:location] C:\Users\kyle.andre.cruz\Documents\FlutterWeather\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-53
+	android:name
+		ADDED from [:location] C:\Users\kyle.andre.cruz\Documents\FlutterWeather\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-71
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\396704e44a9011a98f7b1d95e80e355e\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\396704e44a9011a98f7b1d95e80e355e\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\396704e44a9011a98f7b1d95e80e355e\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\396704e44a9011a98f7b1d95e80e355e\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\396704e44a9011a98f7b1d95e80e355e\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\396704e44a9011a98f7b1d95e80e355e\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\6a3a0d60955de2c30b51dcab3f873cac\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\6a3a0d60955de2c30b51dcab3f873cac\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\6a3a0d60955de2c30b51dcab3f873cac\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\6a3a0d60955de2c30b51dcab3f873cac\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\10ba39f5f6316ed6c3742e6b475e1f1a\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\10ba39f5f6316ed6c3742e6b475e1f1a\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\kyle.andre.cruz\.gradle\caches\transforms-2\files-2.1\10ba39f5f6316ed6c3742e6b475e1f1a\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
