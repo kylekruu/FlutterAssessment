@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:expandable/expandable.dart';
+import 'package:flutter_weather/helper/utils.dart';
 import 'package:flutter_weather/models/dailyWeather.dart';
 import 'package:flutter_weather/models/weather.dart';
 import 'package:intl/intl.dart';
+import '../main.dart';
 import 'infoCard.dart';
 import 'dart:developer';
 
@@ -30,8 +32,8 @@ class DailyCard extends StatelessWidget {
     String weekDay = DateFormat('EEE').format(dw.date);
 
     //parse data
-    int highTemp = weather.tempMax.round();
-    int lowTemp = weather.tempMin.round();
+    int highTemp = weather.tempMax.as(AppStateContainer.of(context).temperatureUnit).round();
+    int lowTemp = weather.tempMin.as(AppStateContainer.of(context).temperatureUnit).round();
     String icon = "0";
     String description = weather.description;
 
@@ -72,33 +74,6 @@ class DailyCard extends StatelessWidget {
                 ),
               ],
             ),
-            trailing: Row(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Container(
-                  width: 42,
-                  child: Center(
-                    child: Text(
-                      "${highTemp.toString()}°",
-                      style: TextStyle(
-                          fontSize: 20, fontWeight: FontWeight.bold, color: Colors.black),
-                    ),
-                  ),
-                ),
-                Container(
-                  width: 42,
-                  child: Center(
-                    child: Text(
-                      "${lowTemp.toString()}°",
-                      style: TextStyle(
-                          fontSize: 20,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.black),
-                    ),
-                  ),
-                ),
-              ],
-            ),
           ),
         ),
       ),
@@ -110,11 +85,11 @@ class DailyCard extends StatelessWidget {
      return SingleChildScrollView(scrollDirection: Axis.vertical,
          child: ListView.builder(scrollDirection: Axis.vertical,
          shrinkWrap: true, itemCount: data.length,
-            itemBuilder: (context, index) => this._buildRow(data[index], mainData)
+            itemBuilder: (context, index) => this._buildRow(data[index], mainData, context)
         )
      );
   }
-  _buildRow(DailyWeather dailyWeather,Weather weather) {
+  _buildRow(DailyWeather dailyWeather,Weather weather, BuildContext context) {
     String dateTxt = DateFormat('EEEE, MMMM dd, yyyy').format(dailyWeather.date);
     return ExpansionTile(
         childrenPadding: const EdgeInsets.all(8.0),
@@ -126,7 +101,7 @@ class DailyCard extends StatelessWidget {
             "Condition: ${dailyWeather.condition}",
           ),
           Text(
-            "Temperature: ${dailyWeather.dailyTemp}",
+            "Temperature: ${TempTransform.as(AppStateContainer.of(context).temperatureUnit, dailyWeather.dailyTemp.toDouble()).round()}°",
           ),
         ] // Some list of List Tile's or widget of that kind,
     );

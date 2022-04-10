@@ -8,7 +8,7 @@ import 'package:provider/provider.dart';
 import '../viewmodel/WeatherViewModel.dart';
 
 class Location extends StatefulWidget {
-
+  static const routeName = '/locationScreen';
   Location({Key key}) : super(key: key);
 
 
@@ -37,7 +37,7 @@ class _LocationPageState extends State<Location> {
                 Provider.of<WeatherViewModel>(context, listen: false).searchWeatherData(location :data[index].cityName.toString());
                 Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (_) => const HomeScreen())
+                    MaterialPageRoute(builder: (_) => const HomeScreen(isNew: false,))
                 );
               },
               child: Dismissible(

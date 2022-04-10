@@ -173,4 +173,16 @@ class Weather {
           .map<Weather>((item) => Weather.fromJson1(item))
           .toList();
 
+  intToDouble(dynamic val) {
+    if (val.runtimeType == double) {
+      return val;
+    } else if (val.runtimeType == int) {
+      return val.toDouble();
+    } else {
+      throw new Exception("value is not of type 'int' or 'double' got type '" +
+          val.runtimeType.toString() +
+          "'");
+    }
+  }
+
 }

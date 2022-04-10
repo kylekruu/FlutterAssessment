@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_weather/main.dart';
 import 'package:intl/intl.dart';
 
 import '../helper/utils.dart';
 import '../Screens/hourlyWeatherScreen.dart';
 import '../models/dailyWeather.dart';
 
-class HourlyForecast extends StatelessWidget {
+class DailyForecast extends StatelessWidget {
   final wData;
   final List<DailyWeather> dWeather;
 
-  HourlyForecast({this.wData, this.dWeather});
+  DailyForecast({this.wData, this.dWeather});
 
   Widget hourlyWidget(dynamic weather, BuildContext context) {
     final currentTime = weather.date;
@@ -62,7 +63,7 @@ class HourlyForecast extends StatelessWidget {
                 Container(
                   width: 80,
                   child: Text(
-                    "${weather.dailyTemp.toStringAsFixed(1)}°C",
+                    "${TempTransform.as(AppStateContainer.of(context).temperatureUnit, weather.dailyTemp.toDouble()).round()}°",
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 20,

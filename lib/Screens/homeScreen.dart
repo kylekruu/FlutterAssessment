@@ -5,7 +5,7 @@ import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 import '../viewmodel/WeatherViewModel.dart';
 import '../widgets/fadeIn.dart';
-import '../widgets/hourlyForecast.dart';
+import '../widgets/dailyForecast.dart';
 import '../widgets/locationError.dart';
 import '../widgets/mainWeather.dart';
 import '../widgets/requestError.dart';
@@ -13,7 +13,8 @@ import '../widgets/requestError.dart';
 
 class HomeScreen extends StatefulWidget {
   static const routeName = '/homeScreen';
-  const HomeScreen({Key key}) : super(key: key);
+
+  const HomeScreen({Key key, bool isNew}) : super(key: key);
   @override
   _HomeScreenState createState() => _HomeScreenState();
 }
@@ -25,6 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
     super.initState();
+
     _getData();
   }
 
@@ -92,11 +94,12 @@ class _HomeScreenState extends State<HomeScreen> {
                                                       wData: weatherData)),
                                               FadeIn(
                                                 delay: 0.66,
-                                                child: HourlyForecast(
+                                                child: DailyForecast(
                                                   wData: weatherData,
                                                   dWeather:
                                                   weatherData.sevenDayWeather,),
                                               ),
+                                              Padding(padding: const EdgeInsets.all(10)),
                                               FadeIn(
                                                 delay: 0.66,
                                                 child: DailyCard(

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 
+import '../helper/TemperatureUnit.dart';
 import '../helper/utils.dart';
 import 'package:toggle_switch/toggle_switch.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
+import '../main.dart';
 import '../viewmodel/WeatherViewModel.dart';
 
 class MainWeather extends StatelessWidget {
@@ -51,7 +51,7 @@ class MainWeather extends StatelessWidget {
                     '${wData.weather.currently}', context, 55),
               ),
               Text(
-                '${Provider.of<WeatherViewModel>(context, listen: false).tempTransform(wData.weather.temp)}°C',
+                '${TempTransform.as(AppStateContainer.of(context).temperatureUnit, wData.weather.temp).round()}°',
                 style: TextStyle(
                   fontSize: 55,
                   fontWeight: FontWeight.w600,
@@ -61,8 +61,8 @@ class MainWeather extends StatelessWidget {
           ),
           ToggleSwitch(
 
-            minWidth: 160,
-            initialLabelIndex: tempSwitch,
+            minWidth: 160.8,
+            initialLabelIndex: AppStateContainer.of(context).temperatureUnit.index,
             cornerRadius: 20.0,
             activeFgColor: Colors.white,
             inactiveBgColor: Colors.grey,
@@ -72,7 +72,8 @@ class MainWeather extends StatelessWidget {
             activeBgColors: [[Colors.blue],[Colors.pink]],
             onToggle: (index)  {
 
-              Provider.of<WeatherViewModel>(context, listen: false).switchTempFormat(index);
+              AppStateContainer.of(context)
+                  .updateTemperatureUnit(TemperatureUnit.values[index]);
 
             },
           ),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_weather/helper/TemperatureUnit.dart';
 import 'package:flutter_weather_icons/flutter_weather_icons.dart';
 
 class UvIndex {
@@ -132,5 +133,22 @@ class MapString {
       size: iconSize,
       color: Theme.of(context).primaryColor,
     );
+  }
+
+}
+class TempTransform{
+  static double as(TemperatureUnit unit, double temp){
+
+    double fahrenheit = (temp * 9/5) + 32;
+
+    switch(unit){
+      case TemperatureUnit.celsius:
+        return temp;
+        break;
+      case TemperatureUnit.fahrenheit:
+        return fahrenheit;
+        break;
+    }
+
   }
 }
